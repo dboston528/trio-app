@@ -1,0 +1,21 @@
+body {
+  padding-top: 50px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 150x;
+}
+
+input {
+  display: block;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.form-control {
+  width: 100%;
+}
