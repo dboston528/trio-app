@@ -10,8 +10,8 @@
 
   <div class="row">
     <div class="col-md-12 text-center">
-    <h1 id="title">Trio Application</h1>
-<p id="description">This is an application for Trio porgrams</p>
+    <h1 id="title">Student Application</h1>
+<p id="description">Student Application</p>
       </div>
     </div>
   
@@ -21,42 +21,76 @@
 <form id="survey-form">
   <div class="form-group">
     <label id="name-label">First Name *</label>
-    <input id="name" placeholder="First Name" required/>
+    <input id="name" placeholder="First Name" class="form-control" required/>
   </div>
   
   <div class="form-group">
     <label id="name-label">Last Name *</label>
-    <input id="name" placeholder="Last Name" required/>
+    <input id="name" placeholder="Last Name" class="form-control" required/>
   </div>
   
   <div class="form-group">
   <label id="email-label">Email</label>
-  <input id="email" placeholder="email" type="email" required/>
+  <input id="email" placeholder="email" type="email" class="form-control" required/>
+    </div>
+  
+  <div class="form-group">
+  <label id="email-label">Parent/Guardian's E-mail</label>
+  <input id="email" placeholder="email" type="email" class="form-control" required/>
+    </div>
+  
+    <div class="form-group">
+  <label id="email-label">Studen's Phone Number</label>
+  <input id="email" placeholder="Student's Phone Number" type="number" class="form-control" required/>
     </div>
   
   <div class="form-group"> 
-  <label id="number-label">Phone Number </label>
-  <input id="number" placeholder="Phone Number" required type="number" min="10" max="100">
+  <label id="number-label">Parent/Gaurdian's Phone Number </label>
+  <input id="number" placeholder="Parent/Gaurdian's Phone Number Phone Number" class="form-control" required type="number" min="10" max="100">
   </div>
-    
+  
+  <div class="form-group">
+     <label id="email-label">School/College Currently Attending</label>
+     <input placeholder="School/College Currntly Attending" class="form-control" required/>
+  </div>
+  
+  <div class="form-group">
+     <label>School Student ID# (If applicable)</label>
+     <input placeholder="School ID#" class="form-control" required/>
+  </div>
+  
+    <div class="form-group">
+     <label>Grade Level</label>
+      <select placeholder="Grade Level" class="form-control" required>
+      <option> 6th Grade</option>
+      <option>7th Grade</option>
+      <option>8th Grade</option>
+      <option> High School Freshman</option>
+      <option>High School Souphomore</option>
+      <option>High School Junior</option>
+      <option>High School Senior</option>
+      <option>High School Graduate</option>
+      </select>
+  </div>
+  
      <div class="form-group"> 
   <label>Steet Address </label>
-  <input placeholder="Street Address" required>
+  <input placeholder="Street Address" class="form-control" required>
   </div>
   
    <div class="form-group"> 
   <label>City </label>
-  <input placeholder="City" required>
+  <input placeholder="City" class="form-control" required>
   </div>
   
    <div class="form-group"> 
-  <label>State </label>
-  <input placeholder="State" required>
+  <label >State </label>
+  <input placeholder="State" class="form-control" required>
   </div>
   
    <div class="form-group"> 
   <label>Postal Code </label>
-  <input placeholder="Postal Code" required>
+  <input placeholder="Postal Code" class="form-control" required>
   </div>
   
   <div class ="form-group"> 
@@ -68,19 +102,38 @@
   </select>
   </div>
   
-  <input type="checkbox" value="1">
-  <input type="checkbox" value="2">
-  <input type="checkbox" value="3">
-  <input type="checkbox" value="41">                                                                        
-
-  <input type="radio" name="radio-buttons" value="1">
-  <input type="radio" name="radio-buttons" value="2">
-  <input type="radio" name="radio-buttons" value="3">
+  <div class="form-group">
+    <label>Are you a U.S. Citizen?</label><br>
   
-  <textarea placeholder="Additionlal comments"></textarea>
+      
+    <label>
+        <input name="radio-button" type="radio" value="true"required>
+      Yes
+      </label>
+    
+      <label>
+        <input name="radio-button" type="radio" value="true"required>
+      No
+      </label>
+  </div>
+  
+  <input type="checkbox" value="1">
+  <input type="checkbox" value="1">
+              
+  <div class="form-group">
+    <label>In the space below, write a short essay explaining the value of a good education and what it means to you. Also describe, in your own words how, Upward Bound or Talent Search can contribute to your future success.</label>
+    <textarea class="form-control" placeholder="Additionlal comments"></textarea>
+  </div>
+  
   <button id="submit">Submit</button>
   
 </form>
+    </div>
+  </div>
+ 
+
+  </div>
+
     
 
   </html>
